@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JohnBobApps — Independent app studio</title>
-<meta name="description" content="JohnBobApps LLC builds small, private tools — free to try, unlock once. No accounts, no ads, no cloud. Home of Casino Bankroll Pro and Poker Bankroll Pro.">
+<meta name="description" content="JohnBobApps LLC builds small, private tools — free to try, unlock once. No accounts, no ads, no cloud. Home of Casino Bankroll Pro, Bankroll Pro Poker and Dice Control Pro.">
 <link rel="canonical" href="https://johnbobapps.com/">
 
 <!-- Social sharing preview -->
@@ -25,7 +25,9 @@
   JohnBobApps — studio page (standalone, hosted on GitHub Pages).
   TO EDIT:
   1) Casino Bankroll Pro is live on the App Store and Google Play.
-  2) Poker Bankroll Pro: when a store listing goes live, change its
+  2) Bankroll Pro Poker is live on Google Play; App Store coming soon.
+     Dice Control Pro: coming soon on both stores.
+     When a store listing goes live, change its
      <span class="store soon"> ... </span> to
      <a class="store live" href="STORE_URL"> ... </a>
      and remove the "Coming soon" badge from its card.
@@ -247,8 +249,7 @@
     margin-right: 4px;
     vertical-align: 1px;
   }
-  .card-top.has-badge { padding-right: 96px; }
-  @media (max-width: 600px) { .card-top.has-badge { padding-right: 0; padding-top: 22px; } }
+  .card-top.has-badge { padding-top: 22px; }
 
   /* ---- about ---- */
   .about p {
@@ -347,22 +348,14 @@
       <div class="apps">
         <article class="card">
           <div class="card-top">
-            <!-- Swap this SVG for <img class="app-icon" src="icon.png" alt=""> to use your real icon -->
-            <svg class="app-icon" viewBox="0 0 100 100" aria-hidden="true">
-              <rect width="100" height="100" rx="22" fill="#0E3B2C"/>
-              <rect x="3" y="3" width="94" height="94" rx="20" fill="none" stroke="#E3B341" stroke-width="3"/>
-              <circle cx="50" cy="50" r="30" fill="none" stroke="#FF9F0A" stroke-width="3"
-                      stroke-dasharray="9 8"/>
-              <text x="50" y="62" text-anchor="middle" font-family="Playfair Display, Georgia, serif"
-                    font-size="30" font-weight="700" fill="#FF9F0A">$</text>
-            </svg>
+            <img class="app-icon" src="casino-icon.png" alt="" width="60" height="60">
             <div>
               <h3>Casino Bankroll Pro</h3>
               <p class="kicker">Session &amp; bankroll tracker</p>
             </div>
           </div>
           <p>Log every session — buy-in, cash-out, time, and game — and watch your real win rate and hourly rate build up over time. Set a bankroll, get budget alerts, and export to CSV. Everything stays on your device: no accounts, no cloud sync. Free to try, with a one-time unlock.</p>
-          <p class="new-feature"><span class="new-tag">Coming soon</span> <strong>Trip Expenses</strong> — soon you'll be able to track hotel, food, and travel costs right inside each trip, snap receipt photos with your camera or pick them from your gallery, and export it all as CSV or a ZIP with the receipts. See what a casino trip really cost, not just what happened at the tables.</p>
+          <p class="new-feature"><span class="new-tag">New</span> <strong>Trip Expenses</strong> — track hotel, food, and travel costs right inside each trip, snap receipt photos with your camera or pick them from your gallery, and export it all as CSV or a ZIP with the receipts. See what a casino trip really cost, not just what happened at the tables.</p>
           <div class="stores">
             <a class="store live" href="https://apps.apple.com/app/casino-bankroll-pro/id6778636114">
               <svg width="16" height="19" viewBox="0 0 16 19" fill="currentColor" aria-hidden="true">
@@ -385,26 +378,40 @@
           </div>
         </article>
         <article class="card">
-          <span class="badge">Coming soon</span>
+          <span class="badge">New on Android</span>
           <div class="card-top has-badge">
-            <svg class="app-icon" viewBox="0 0 100 100" aria-hidden="true">
-              <rect width="100" height="100" rx="22" fill="#0A0C0B"/>
-              <rect x="3" y="3" width="94" height="94" rx="20" fill="none" stroke="#2FCB7A" stroke-width="3"/>
-              <circle cx="50" cy="50" r="30" fill="#1A7A4A"/>
-              <circle cx="50" cy="50" r="30" fill="none" stroke="#EDE6D6" stroke-width="4" stroke-dasharray="7 6.3"/>
-              <circle cx="50" cy="50" r="19" fill="#0A0C0B"/>
-              <path d="M50 37c-3.5 5.2-9.5 7.8-9.5 13a5.2 5.2 0 0 0 8.2 4.2L46.5 59h7l-2.2-4.8a5.2 5.2 0 0 0 8.2-4.2c0-5.2-6-7.8-9.5-13z" fill="#2FCB7A"/>
-            </svg>
+            <img class="app-icon" src="poker-icon.png" alt="" width="60" height="60">
             <div>
-              <h3>Poker Bankroll Pro</h3>
+              <h3>Bankroll Pro Poker</h3>
               <p class="kicker">Cash game &amp; tournament tracker</p>
             </div>
           </div>
           <p>Built for poker players. Log cash sessions and see your win rate in big blinds per hour, or track tournaments with true ROI and ITM% — buy-ins, fees, rebuys and add-ons all counted. Same promise as everything we make: your data stays on your device. Free to try, with a one-time unlock.</p>
           <div class="stores">
             <span class="store soon">App Store — soon</span>
-            <span class="store soon">Google Play — soon</span>
+            <a class="store live" href="https://play.google.com/store/apps/details?id=com.johnbobapps.pokerbankrollpro">
+              <svg width="16" height="18" viewBox="0 0 16 18" fill="currentColor" aria-hidden="true">
+                <path d="M1 1.2v15.6c0 0.3 0.3 0.5 0.6 0.3l8.4-8.1L1.6 0.9C1.3 0.7 1 0.9 1 1.2zM12.6 6.3L3 0.8l7.7 7.5 1.9-2zM14.7 8.1l-2.3-1.3-2.1 2 2.1 2 2.3-1.3c0.5-0.3 0.5-1 0-1.4zM10.6 10.5L3 17.2l9.6-5.5-2-1.2z"/>
+              </svg>
+              Google Play
+            </a>
             <a class="store site" href="https://pokerbankrollpro.app">Visit site</a>
+          </div>
+        </article>
+        <article class="card">
+          <span class="badge">Coming soon</span>
+          <div class="card-top has-badge">
+            <img class="app-icon" src="dice-icon.png" alt="" width="60" height="60">
+            <div>
+              <h3>Dice Control Pro</h3>
+              <p class="kicker">SRR &amp; dice-set tracker</p>
+            </div>
+          </div>
+          <p>Built for controlled dice throwers. Log every roll and see your sevens-to-rolls ratio, how your dice landed against your set, and your edge on every craps bet. Practice on a Las Vegas betting table with play money, and watch the house edge drop as you add odds. Your rolls stay on your device. Free to try, with a one-time unlock.</p>
+          <div class="stores">
+            <span class="store soon">App Store — soon</span>
+            <span class="store soon">Google Play — soon</span>
+            <a class="store site" href="https://dicecontrolpro.com">Visit site</a>
           </div>
         </article>
       </div>
@@ -423,10 +430,12 @@
       <span class="foot-links">
         <a href="mailto:support@johnbobapps.com">support@johnbobapps.com</a>
         <a href="https://casinobankrollpro.com">Casino Bankroll Pro</a>
-        <a href="https://pokerbankrollpro.app">Poker Bankroll Pro</a>
+        <a href="https://pokerbankrollpro.app">Bankroll Pro Poker</a>
+        <a href="https://dicecontrolpro.com">Dice Control Pro</a>
         <a href="https://casinobankrollpro.com/how-to-videos.html">How-To Videos</a>
         <a href="https://casinobankrollpro.com/privacy-policy.html">Casino Privacy</a>
         <a href="https://pokerbankrollpro.app/privacy.html">Poker Privacy</a>
+        <a href="https://dicecontrolpro.com/privacy.html">Dice Privacy</a>
       </span>
     </footer>
 
