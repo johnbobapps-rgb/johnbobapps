@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag -->
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KW2XBCXR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JohnBobApps — Independent app studio</title>
@@ -282,6 +289,7 @@
   }
   .foot a:hover { text-decoration: underline; }
   .foot-links { display: flex; flex-wrap: wrap; gap: 14px 22px; }
+  .foot-note { flex-basis: 100%; margin: 6px 0 0; font-size: 12px; opacity: .75; }
 
   /* ---- a11y + polish ---- */
   a:focus-visible {
@@ -438,6 +446,7 @@
         <a href="https://pokerbankrollpro.app/privacy.html">Poker Privacy</a>
         <a href="https://dicecontrolpro.com/privacy.html">Dice Privacy</a>
       </span>
+      <p class="foot-note">This website uses Google Analytics cookies to count visits (<a href="https://policies.google.com/privacy">Google's Privacy Policy</a> · <a href="https://tools.google.com/dlpage/gaoptout">opt out</a>). Our apps contain no analytics and collect nothing.</p>
     </footer>
 
   </div>
